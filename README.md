@@ -7,3 +7,4 @@ I have the task to create a **landing page** and **no matter the topic**, just f
 - Image of the [curch, the old town market, and the old railway station of Itauguá city](http://www.itaugua.com.py/v1/index.php/categories/social-media/18151-historia-de-itaugua)
 - Reference images from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page#assignment).
 - Image of the [San Rafael Museum](https://visitaparaguay.com.py/lugar/469/museo-parroquial-san-rafael-y-museo-comunitario-del-nanduti#&gid=1&pid=1)
+- Icon of [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) from Font Awesome.
