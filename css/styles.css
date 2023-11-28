@@ -218,3 +218,8 @@ html {
     flex-basis: 100%;
     text-align: center;
 }
+
+/* The figcaption section: */
+.information-img figcaption {
+    margin-top: 10px;
+}
