@@ -286,3 +286,30 @@ html {
     /* Another space, more, more, more! */
     padding: 50px 170px;
 }
+
+/* Styling those texts... */
+/* The h2 title element: */
+.information-div__title {
+    /* Adding a main color: */
+    color: var(--h1-header-color-text);
+}
+
+/* The paragraph text element: */
+.information-div__text {
+    /* The color of --hero-text. */
+    color: var(--hero-text);
+}
+
+/* Styling the anchor element as a button. */
+.information-div__button {
+    /* Use the border to create the button: */
+    border: 3px outset #fff;
+    /* Let's use this color: */
+    color: var(--anchors-text);
+    /* Use the font-weight set to bold: */
+    font-weight: bold;
+    /* Remove the text-decoration set to none. */
+    text-decoration: none;
+    /* A little space. I thought you needed the display: block in order to add padding... I was wrong. */
+    padding: 10px;
+}
