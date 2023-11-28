@@ -27,3 +27,12 @@
     /* Information header text. And quote text. */
     --information-header: #1f2937;
 }
+
+/* The HTML rule. */
+html {
+    /* Roboto family with "sans-serif" as a fallback. */
+    font-family: Roboto, sans-serif;
+    /* By default, font-size: 16px is in Chrome. Let's change! */
+    /* font-size: 16px; */
+    font-size: 20px;
+}
