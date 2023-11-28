@@ -46,14 +46,14 @@ html {
     /* Let's use "var()" function. */
     /* Put inside of it the variable value with (--) */
     background-color: var(--bg-color);
+    /* Use the color property with variables: */
+    color: var(--h1-header-color-text);
 }
 
 /* Header-top, and it's inside from .header. */
 .header-top {
     /* Let's organize our container with "align-items" and it controls the cross-axis. */
     align-items: center;
-    /* Use the color property with variables: */
-    color: var(--h1-header-color-text);
     /* Let's use display: flex. */
     display: flex;
     /* Use font-size to maximize the font. */
