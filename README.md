@@ -8,3 +8,5 @@ I have the task to create a **landing page** and **no matter the topic**, just f
 - Reference images from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page#assignment).
 - Image of the [San Rafael Museum](https://visitaparaguay.com.py/lugar/469/museo-parroquial-san-rafael-y-museo-comunitario-del-nanduti#&gid=1&pid=1)
 - Icon of [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) from Font Awesome.
+- Social media such as **Facebook**, **Instagram**, **X** (Twitter), and **YouTube**.
+- Font Awesome 6.
