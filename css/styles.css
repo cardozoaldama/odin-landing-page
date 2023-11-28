@@ -139,3 +139,25 @@ html {
     /* This isn't real, but well 400px. */
     width: 400px;
 }
+
+/* This header-button has repeated... But, well. This is special one in the header-bottom. */
+.header-button {
+    /* The background-color using the button-color variable value. */
+    background-color: var(--button-color);
+    /* Use border simulating a button. */
+    border: 1px outset black;
+    /* The color is using a variable. We need to add other one. */
+    color: var(--anchors-text);
+    /* By default, anchor elements has display: block; */
+    display: block;
+    /* Font-weight in action set to bold: */
+    font-weight: bold;
+    /* Adding padding space, because it's a button. */
+    padding: 15px;
+    /* Hey, you copy and paste... */
+    /* In order to remove your underline, use text-decoration set to none. */
+    text-decoration: none;
+    /* This is new, adding a width: */
+    /* I like the "fit-content" now. */
+    width: fit-content;
+}
