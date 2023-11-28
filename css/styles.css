@@ -184,6 +184,7 @@ html {
 /* The information-title here: */
 .information-title {
     text-align: center;
+    padding-bottom: 80px;
 }
 
 /* Images of the first section: */
