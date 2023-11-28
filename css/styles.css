@@ -107,3 +107,18 @@ html {
     /* Justify-content in the main axis. */
     justify-content: space-between;
 }
+
+/* Modifying the img element. */
+.header-img {
+    /* Border-radius, because we want more circle. */
+    border-radius: 50%;
+    /* By default, img element is inline-level. */
+    display: block;
+    /* Height auto, just because. */
+    height: auto;
+    /* This is randomly I picked up. */
+    /* We optimized the speed over quality. */
+    image-rendering: optimizeSpeed;
+    /* This isn't real, but well 400px. */
+    width: 400px;
+}
