@@ -214,12 +214,16 @@ html {
     justify-content: space-evenly;
 }
 
+/* Figures as a .information-img class. */
 .information-img {
+    /* Distribute "equally" into the main-axis. */
     flex-basis: 100%;
+    /* Text align set to center. */
     text-align: center;
 }
 
 /* The figcaption section: */
 .information-img figcaption {
+    /* This will help in terms of space. */
     margin-top: 10px;
 }
