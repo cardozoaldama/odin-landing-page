@@ -266,3 +266,23 @@ html {
 .information-text {
     width: 50%;
 }
+
+/* The last section here. */
+/* Use the :last-child because we always need the last-child. */
+.information:last-child {
+    /* Extra space! */
+    padding: 200px;
+}
+
+.information:last-child .information-div {
+    /* Aligning the items to the center. */
+    align-items: center;
+    /* Always use those colors with variables here. Well, almost. */
+    background-color: var(--button-color);
+    /* Display flex here! */
+    display: flex;
+    /* Justify those contents set to space-between... */
+    justify-content: space-between;
+    /* Another space, more, more, more! */
+    padding: 50px 170px;
+}
