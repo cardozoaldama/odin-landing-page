@@ -315,3 +315,51 @@ html {
     /* A little space. I thought you needed the display: block in order to add padding... I was wrong. */
     padding: 10px;
 }
+
+/* FOOTER */
+.footer {
+    /* You will have the same background as the header. */
+    background-color: var(--bg-color);
+    /* Some space, please. */
+    padding: 60px 90px;
+}
+
+/* .footer-information is the first container. */
+.footer-information {
+    /* Aligning the items to center: */
+    align-items: center;
+    /* Display set to flex: */
+    display: flex;
+    /* Also, justify the content to space-between. */
+    justify-content: space-between;
+}
+
+/* The .footer-logo is the paragraph. */
+.footer-logo {
+    /* Assigning the color with variables. */
+    color: var(--h1-header-color-text);
+    /* Font-size set to 24px, as a reference. */
+    font-size: 24px;
+    /* The font-weight set to bolder... */
+    font-weight: 900;
+}
+
+/* .footer-links is the unordered list. */
+.footer-links {
+    /* Without styling the list-style set to none. */
+    list-style: none;
+}
+
+/* Inside of our .footer-links, set the "li" a margin. */
+.footer-links li {
+    /* We need margin in our life. */
+    margin: 10px 0;
+}
+
+/* Also, we have a button, kind of. It's an anchor. */
+.footer-links li a {
+    /* Using variables for those colors. */
+    color: var(--anchors-text);
+    /* Get out of that decoration. */
+    text-decoration: none;
+}
