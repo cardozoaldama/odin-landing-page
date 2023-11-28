@@ -192,6 +192,9 @@ html {
     display: block;
     /* Height auto and width with those proportions. Randomly picked. */
     height: auto;
+    /* And you are the margin set to auto. */
+    margin: auto;
+    /* You are the width. */
     width: 250px;
 }
 
