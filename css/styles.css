@@ -406,3 +406,26 @@ html {
     /* Adding width to make them equally. */
     width: 60px;
 }
+
+/* Now it's time to style the footer-copyright: */
+/* This is the final wave, fight! */
+.footer-copyright {
+    /* Let's use this color for some reason. */
+    color: var(--h1-header-color-text);
+    /* Add padding from the top, space from the top! */
+    padding-top: 60px;
+    /* We want the text aligned to the center. */
+    text-align: center;
+}
+
+/* The first type of the element "p". */
+.footer-copyright p:first-of-type {
+    /* Italic is commonly used, I guess... */
+    font-style: italic;
+}
+
+/* Our heart is red here. <3 */
+.heart {
+    /* For now, we do not use variables here: */
+    color: red;
+}
