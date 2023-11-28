@@ -363,3 +363,46 @@ html {
     /* Get out of that decoration. */
     text-decoration: none;
 }
+
+/* .footer-icons is the second container. */
+/* The .footer-icons: */
+.footer-icons {
+    /* Let's add a border here: */
+    border-top: 1px solid #fff;
+    /* Some space from the top! */
+    padding-top: 35px;
+}
+
+/* Ups... let's use it directly... */
+.footer-icons .footer-social {
+    /* Aligning the items to center. */
+    align-items: center;
+    /* We love flex. */
+    display: flex;
+    /* Use gaps! */
+    gap: 10px;
+    /* The justify-content must be center. */
+    justify-content: center;
+    /* list-style was a shorthand, this is actually more specific. */
+    list-style-type: none;
+}
+
+/* Now we are going to style the anchor element. */
+.footer-icons .footer-social li a {
+    /* Background set to anchor style: */
+    background-color: var(--anchors-text);
+    /* Your border-radius, sire! */
+    border-radius: 100%;
+    /* Always use the var() function here: */
+    color: var(--bg-color);
+    /* Try to use display block here: */
+    display: block;
+    /* Let's put more font-size. */
+    font-size: 1.6rem;
+    /* Padding, adding extra space: */
+    padding: 10px;
+    /* Add the text-align, please: */
+    text-align: center;
+    /* Adding width to make them equally. */
+    width: 60px;
+}
