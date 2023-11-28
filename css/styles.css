@@ -101,11 +101,28 @@ html {
     /* Probably this one repeats, repeats... */
     display: flex;
     /* Change the main-axis to column direction now! */
-    flex-direction: column;
+    /* Now, we want to make it as a row. */
+    flex-direction: row;
     /* Wrapping things, try it. */
     flex-wrap: wrap;
     /* Justify-content in the main axis. */
     justify-content: space-between;
+    /* Add a padding, just because! */
+    padding: 30px;
+}
+
+/* The new div in action: */
+.header-bottom div {
+    /* Let's use flex-container again from here. */
+    display: flex;
+    /* Change the direction of the main-axis. */
+    flex-direction: column;
+    /* We could use the flex-basis for the flex-item. */
+    flex-basis: 50%;
+    /* Justify the content to the center. */
+    justify-content: center;
+    /* Space between those items, using gap property. */
+    gap: 20px;
 }
 
 /* Modifying the img element. */
