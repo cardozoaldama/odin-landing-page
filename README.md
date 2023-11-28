@@ -10,3 +10,4 @@ I have the task to create a **landing page** and **no matter the topic**, just f
 - Icon of [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) from Font Awesome.
 - Social media such as **Facebook**, **Instagram**, **X** (Twitter), and **YouTube**.
 - Font Awesome 6.
+- Trey Jones, Public domain, via Wikimedia Commons. Photo of the `Ñandutí`.
