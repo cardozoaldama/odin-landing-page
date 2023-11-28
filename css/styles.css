@@ -63,3 +63,33 @@ html {
     /* I know some people don't like 'space-around', but I will give it an opportunity. */
     justify-content: space-around;
 }
+
+/* .header-links is actually our "ul" element. */
+.header-links {
+    /* Always put the align-items to the center. */
+    align-items: center;
+    /* Let's make this unordered list into Flex. */
+    display: flex;
+    /* Remove those disc over there! */
+    list-style: none;
+    /* Justify content set to center. */
+    justify-content: center;
+    /* The gap is space between elements in flex container. */
+    gap: 25px;
+}
+
+/* Our anchor elements: */
+.header-links li a {
+    /* The background-color using the button-color variable value. */
+    background-color: var(--button-color);
+    /* Use border simulating a button. */
+    border: 2px outset black;
+    /* The color is using a variable. We need to add other one. */
+    color: var(--h1-header-color-text);
+    /* By default, anchor elements has display: block; */
+    display: block;
+    /* Adding padding space, because it's a button. */
+    padding: 10px;
+    /* In order to remove your underline, use text-decoration set to none. */
+    text-decoration: none;
+}
