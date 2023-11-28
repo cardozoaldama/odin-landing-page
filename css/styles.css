@@ -26,6 +26,8 @@
     --button-color: #3882f6;
     /* Information header text. And quote text. */
     --information-header: #1f2937;
+    /* For those anchors who want to be independent. */
+    --anchors-text: #fff;
 }
 
 /* The HTML rule. */
@@ -85,7 +87,7 @@ html {
     /* Use border simulating a button. */
     border: 2px outset black;
     /* The color is using a variable. We need to add other one. */
-    color: var(--h1-header-color-text);
+    color: var(--anchors-text);
     /* By default, anchor elements has display: block; */
     display: block;
     /* Adding padding space, because it's a button. */
