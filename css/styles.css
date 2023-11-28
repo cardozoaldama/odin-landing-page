@@ -194,3 +194,18 @@ html {
     height: auto;
     width: 250px;
 }
+
+/* Now we are going to change those figure and figcaption. */
+.information-fig {
+    /* We need to put them all like stretch. */
+    align-items: stretch;
+    /* The flexbox container is here. */
+    display: flex;
+    /* Justify those contents space-evenly. */
+    justify-content: space-evenly;
+}
+
+.information-img {
+    flex-basis: 100%;
+    text-align: center;
+}
