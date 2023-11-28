@@ -36,3 +36,30 @@ html {
     /* font-size: 16px; */
     font-size: 20px;
 }
+
+/* First for all, let's change specific layouts inside of the container. */
+
+/* Header: */
+.header {
+    /* Let's use "var()" function. */
+    /* Put inside of it the variable value with (--) */
+    background-color: var(--bg-color);
+}
+
+/* Header-top, and it's inside from .header. */
+.header-top {
+    /* Let's organize our container with "align-items" and it controls the cross-axis. */
+    align-items: center;
+    /* Use the color property with variables: */
+    color: var(--h1-header-color-text);
+    /* Let's use display: flex. */
+    display: flex;
+    /* Use font-size to maximize the font. */
+    font-size: 24px;
+    /* We could use font-weight set to bold. */
+    /* No, no. Actually not. */
+    /* font-weight: bold; */
+    /* Use "justify-content" to organize your container in main-axis. */
+    /* I know some people don't like 'space-around', but I will give it an opportunity. */
+    justify-content: space-around;
+}
