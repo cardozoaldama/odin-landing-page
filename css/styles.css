@@ -95,3 +95,15 @@ html {
     /* In order to remove your underline, use text-decoration set to none. */
     text-decoration: none;
 }
+
+/* The .header-bottom: */
+.header-bottom {
+    /* Probably this one repeats, repeats... */
+    display: flex;
+    /* Change the main-axis to column direction now! */
+    flex-direction: column;
+    /* Wrapping things, try it. */
+    flex-wrap: wrap;
+    /* Justify-content in the main axis. */
+    justify-content: space-between;
+}
