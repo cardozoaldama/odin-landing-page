@@ -279,6 +279,8 @@ html {
     align-items: center;
     /* Always use those colors with variables here. Well, almost. */
     background-color: var(--button-color);
+    /* Add border-radius, because it's too sharp. */
+    border-radius: 15px;
     /* Display flex here! */
     display: flex;
     /* Justify those contents set to space-between... */
