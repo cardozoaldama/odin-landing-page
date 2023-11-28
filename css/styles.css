@@ -111,6 +111,14 @@ html {
     padding: 30px;
 }
 
+/* The .header-bottom h1 element selector */
+.header-bottom h1 {
+    /* The font-size must be 48px: */
+    font-size: 48px;
+    /* The font-weight must be extra-bold or probably 900 as value: */
+    font-weight: 900;
+}
+
 /* The new div in action: */
 .header-bottom div {
     /* Let's use flex-container again from here. */
