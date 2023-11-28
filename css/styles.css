@@ -176,6 +176,11 @@ html {
 
 /* THE MAIN CONTENT */
 /* The first section (information): */
+/* Pseudo-class in action! The first child of its parent. */
+.information:first-child {
+    padding: 50px 25px;
+}
+
 /* The information-title here: */
 .information-title {
     text-align: center;
