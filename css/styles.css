@@ -235,3 +235,34 @@ html {
     /* This will help in terms of space. */
     margin-top: 10px;
 }
+
+/* Now, we are going to focus in the second section: */
+/* This selects the second child of its parent. It's interesting... */
+/* I wonder if you could use variables inside of them... */
+.information:nth-child(2) {
+    /* Align the items to the center. */
+    align-items: center;
+    /* The background has the style for this "quote". */
+    background-color: var(--hero-text);
+    /* Another display: flex. */
+    display: flex;
+    /* Now I want them like a column! */
+    flex-direction: column;
+    /* Font-size set to 36px; */
+    font-size: 36px;
+    /* The style as an italic... */
+    font-style: italic;
+    /* The font-weight must be lighter. */
+    font-weight: lighter;
+    /* More in the center. */
+    justify-content: center;
+    /* I like the gap! */
+    gap: 15px;
+    /* Adding some space here. */
+    padding: 25px;
+}
+
+/* The .information-text is a paragraph, which is inside of the second information. */
+.information-text {
+    width: 50%;
+}
