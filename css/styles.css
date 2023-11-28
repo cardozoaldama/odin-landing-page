@@ -183,7 +183,15 @@ html {
 
 /* The information-title here: */
 .information-title {
+    /* Use colors with variables. */
+    color: var(--information-header);
+    /* Use the font-size to change the size: 36px. */
+    font-size: 36px;
+    /* We need extra-bold below here! */
+    font-weight: 900;
+    /* Set text to the center. */
     text-align: center;
+    /* Padding at bottom, with 80px. */
     padding-bottom: 80px;
 }
 
