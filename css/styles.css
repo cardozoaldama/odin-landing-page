@@ -48,6 +48,8 @@ html {
     background-color: var(--bg-color);
     /* Use the color property with variables: */
     color: var(--h1-header-color-text);
+    /* Let's add space between the content and the border. */
+    padding: 5px 130px 150px;
 }
 
 /* Header-top, and it's inside from .header. */
@@ -64,6 +66,8 @@ html {
     /* Use "justify-content" to organize your container in main-axis. */
     /* I know some people don't like 'space-around', but I will give it an opportunity. */
     justify-content: space-around;
+    /* You too, adding some space. */
+    padding-bottom: 110px;
 }
 
 /* .header-links is actually our "ul" element. */
