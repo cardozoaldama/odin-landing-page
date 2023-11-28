@@ -6,3 +6,24 @@
     margin: 0;
     padding: 0;
 }
+
+/* Did you know about variables in CSS? */
+/* It's an basic-advance topic in CSS, but I know how to use it. */
+/* I think we need to create variables in HTML element. */
+/* No, no! Actually, it's by :root. */
+/* html { */
+    /* Declaring a variable by using double (--) and the word. */
+    /* --primary-bgcolor: #fff; */
+/* } */
+:root {
+    /* Dark Background Color for 'hero' and 'footer'. */
+    --bg-color: #1f2937;
+    /* Hero main and header logo text. */
+    --h1-header-color-text: #f9faf8;
+    /* Hero secondary text. Quote section background, probably. */
+    --hero-text: #e5e7eb;
+    /* Button color for sign-up and other stuff... */
+    --button-color: #3882f6;
+    /* Information header text. And quote text. */
+    --information-header: #1f2937;
+}
