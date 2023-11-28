@@ -173,3 +173,24 @@ html {
     /* I like the "fit-content" now. */
     width: fit-content;
 }
+
+/* THE MAIN CONTENT */
+/* The first section (information): */
+/* The information-title here: */
+.information-title {
+    text-align: center;
+}
+
+/* Images of the first section: */
+.information div img {
+    /* Adding border-radius. */
+    border-radius: 10px;
+    /* The box-shadow is important to use. */
+    /* The first value is for "x", the second one is "y", the third one is for "blur", and the last one is for the color. */
+    box-shadow: 2px 2px 5px var(--bg-color);
+    /* Remember that the display: inline is by default for the img. */
+    display: block;
+    /* Height auto and width with those proportions. Randomly picked. */
+    height: auto;
+    width: 250px;
+}
