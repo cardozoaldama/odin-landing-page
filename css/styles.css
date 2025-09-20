@@ -1,5 +1,3 @@
-/* Where it all begins. */
-
 /* Adding reset styles... */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -9,8 +7,6 @@
 
 /* Did you know about variables in CSS? */
 /* It's an basic-advance topic in CSS, but I know how to use it. */
-/* I think we need to create variables in HTML element. */
-/* No, no! Actually, it's by :root. */
 /* html { */
     /* Declaring a variable by using double (--) and the word. */
     /* --primary-bgcolor: #fff; */
@@ -32,10 +28,7 @@
 
 /* The HTML rule. */
 html {
-    /* Roboto family with "sans-serif" as a fallback. */
     font-family: Roboto, sans-serif;
-    /* By default, font-size: 16px is in Chrome. Let's change! */
-    /* font-size: 16px; */
     font-size: 20px;
 }
 
@@ -48,128 +41,81 @@ html {
     background-color: var(--bg-color);
     /* Use the color property with variables: */
     color: var(--h1-header-color-text);
-    /* Let's add space between the content and the border. */
     padding: 5px 130px 150px;
 }
 
 /* Header-top, and it's inside from .header. */
 .header-top {
-    /* Let's organize our container with "align-items" and it controls the cross-axis. */
     align-items: center;
-    /* Let's use display: flex. */
     display: flex;
-    /* Use font-size to maximize the font. */
     font-size: 24px;
-    /* We could use font-weight set to bold. */
-    /* No, no. Actually not. */
-    /* font-weight: bold; */
-    /* Use "justify-content" to organize your container in main-axis. */
-    /* I know some people don't like 'space-around', but I will give it an opportunity. */
     justify-content: space-around;
-    /* You too, adding some space. */
     padding-bottom: 110px;
 }
 
 /* .header-links is actually our "ul" element. */
 .header-links {
-    /* Always put the align-items to the center. */
     align-items: center;
-    /* Let's make this unordered list into Flex. */
     display: flex;
-    /* Remove those disc over there! */
     list-style: none;
-    /* Justify content set to center. */
     justify-content: center;
-    /* The gap is space between elements in flex container. */
     gap: 25px;
 }
 
 /* Our anchor elements: */
 .header-links li a {
-    /* The background-color using the button-color variable value. */
     background-color: var(--button-color);
-    /* Use border simulating a button. */
     border: 2px outset black;
     /* The color is using a variable. We need to add other one. */
     color: var(--anchors-text);
-    /* By default, anchor elements has display: block; */
     display: block;
-    /* Adding padding space, because it's a button. */
     padding: 10px;
-    /* In order to remove your underline, use text-decoration set to none. */
     text-decoration: none;
 }
 
 /* The .header-bottom: */
 .header-bottom {
-    /* Probably this one repeats, repeats... */
     display: flex;
-    /* Change the main-axis to column direction now! */
-    /* Now, we want to make it as a row. */
-    flex-direction: row;
-    /* Wrapping things, try it. */
-    flex-wrap: wrap;
-    /* Justify-content in the main axis. */
     justify-content: space-between;
-    /* Add a padding, just because! */
     padding: 30px;
 }
 
 /* The .header-bottom h1 element selector */
 .header-bottom h1 {
-    /* The font-size must be 48px: */
     font-size: 48px;
-    /* The font-weight must be extra-bold or probably 900 as value: */
     font-weight: 900;
 }
 
 /* The new div in action: */
 .header-bottom div {
-    /* Let's use flex-container again from here. */
     display: flex;
-    /* Change the direction of the main-axis. */
     flex-direction: column;
     /* We could use the flex-basis for the flex-item. */
     flex-basis: 50%;
-    /* Justify the content to the center. */
     justify-content: center;
-    /* Space between those items, using gap property. */
     gap: 20px;
 }
 
 /* Modifying the img element. */
 .header-img {
-    /* Border-radius, because we want more circle. */
     border-radius: 50%;
-    /* By default, img element is inline-level. */
     display: block;
-    /* Height auto, just because. */
     height: auto;
     /* This is randomly I picked up. */
     /* We optimized the speed over quality. */
     image-rendering: optimizeSpeed;
-    /* This isn't real, but well 400px. */
     width: 400px;
 }
 
 /* This header-button has repeated... But, well. This is special one in the header-bottom. */
 .header-button {
-    /* The background-color using the button-color variable value. */
     background-color: var(--button-color);
-    /* Use border simulating a button. */
     border: 1px outset black;
-    /* The color is using a variable. We need to add other one. */
     color: var(--anchors-text);
-    /* By default, anchor elements has display: block; */
     display: block;
-    /* Font-weight in action set to bold: */
     font-weight: bold;
-    /* Adding padding space, because it's a button. */
     padding: 15px;
-    /* Hey, you copy and paste... */
-    /* In order to remove your underline, use text-decoration set to none. */
     text-decoration: none;
-    /* This is new, adding a width: */
     /* I like the "fit-content" now. */
     width: fit-content;
 }
@@ -183,42 +129,30 @@ html {
 
 /* The information-title here: */
 .information-title {
-    /* Use colors with variables. */
     color: var(--information-header);
-    /* Use the font-size to change the size: 36px. */
     font-size: 36px;
-    /* We need extra-bold below here! */
     font-weight: 900;
-    /* Set text to the center. */
     text-align: center;
-    /* Padding at bottom, with 80px. */
     padding-bottom: 80px;
 }
 
 /* Images of the first section: */
 .information div img {
-    /* Adding border-radius. */
     border-radius: 10px;
     /* The box-shadow is important to use. */
-    /* The first value is for "x", the second one is "y", the third one is for "blur", and the last one is for the color. */
+    /* The first value is for "x", the second one is "y", the third one is for "blur",
+    and the last one is for the color. */
     box-shadow: 2px 2px 5px var(--bg-color);
-    /* Remember that the display: inline is by default for the img. */
     display: block;
-    /* Height auto and width with those proportions. Randomly picked. */
     height: auto;
-    /* And you are the margin set to auto. */
     margin: auto;
-    /* You are the width. */
     width: 250px;
 }
 
 /* Now we are going to change those figure and figcaption. */
 .information-fig {
-    /* We need to put them all like stretch. */
     align-items: stretch;
-    /* The flexbox container is here. */
     display: flex;
-    /* Justify those contents space-evenly. */
     justify-content: space-evenly;
 }
 
@@ -226,13 +160,11 @@ html {
 .information-img {
     /* Distribute "equally" into the main-axis. */
     flex-basis: 100%;
-    /* Text align set to center. */
     text-align: center;
 }
 
 /* The figcaption section: */
 .information-img figcaption {
-    /* This will help in terms of space. */
     margin-top: 10px;
 }
 
@@ -240,25 +172,15 @@ html {
 /* This selects the second child of its parent. It's interesting... */
 /* I wonder if you could use variables inside of them... */
 .information:nth-child(2) {
-    /* Align the items to the center. */
     align-items: center;
-    /* The background has the style for this "quote". */
     background-color: var(--hero-text);
-    /* Another display: flex. */
     display: flex;
-    /* Now I want them like a column! */
     flex-direction: column;
-    /* Font-size set to 36px; */
     font-size: 36px;
-    /* The style as an italic... */
     font-style: italic;
-    /* The font-weight must be lighter. */
     font-weight: lighter;
-    /* More in the center. */
     justify-content: center;
-    /* I like the gap! */
     gap: 15px;
-    /* Adding some space here. */
     padding: 25px;
 }
 
@@ -270,162 +192,116 @@ html {
 /* The last section here. */
 /* Use the :last-child because we always need the last-child. */
 .information:last-child {
-    /* Extra space! */
     padding: 200px;
 }
 
 .information:last-child .information-div {
-    /* Aligning the items to the center. */
     align-items: center;
-    /* Always use those colors with variables here. Well, almost. */
     background-color: var(--button-color);
-    /* Add border-radius, because it's too sharp. */
     border-radius: 15px;
-    /* Display flex here! */
     display: flex;
-    /* Justify those contents set to space-between... */
     justify-content: space-between;
-    /* Another space, more, more, more! */
     padding: 50px 170px;
 }
 
 /* Styling those texts... */
 /* The h2 title element: */
 .information-div__title {
-    /* Adding a main color: */
     color: var(--h1-header-color-text);
 }
 
 /* The paragraph text element: */
 .information-div__text {
-    /* The color of --hero-text. */
     color: var(--hero-text);
 }
 
 /* Styling the anchor element as a button. */
 .information-div__button {
-    /* Use the border to create the button: */
     border: 3px outset #fff;
-    /* Let's use this color: */
     color: var(--anchors-text);
-    /* Use the font-weight set to bold: */
     font-weight: bold;
-    /* Remove the text-decoration set to none. */
     text-decoration: none;
-    /* A little space. I thought you needed the display: block in order to add padding... I was wrong. */
     padding: 10px;
 }
 
 /* FOOTER */
 .footer {
-    /* You will have the same background as the header. */
     background-color: var(--bg-color);
-    /* Some space, please. */
     padding: 60px 90px;
 }
 
 /* .footer-information is the first container. */
 .footer-information {
-    /* Aligning the items to center: */
     align-items: center;
-    /* Display set to flex: */
     display: flex;
-    /* Also, justify the content to space-between. */
     justify-content: space-between;
 }
 
 /* The .footer-logo is the paragraph. */
 .footer-logo {
-    /* Assigning the color with variables. */
     color: var(--h1-header-color-text);
-    /* Font-size set to 24px, as a reference. */
     font-size: 24px;
-    /* The font-weight set to bolder... */
     font-weight: 900;
 }
 
 /* .footer-links is the unordered list. */
 .footer-links {
-    /* Without styling the list-style set to none. */
     list-style: none;
 }
 
 /* Inside of our .footer-links, set the "li" a margin. */
 .footer-links li {
-    /* We need margin in our life. */
     margin: 10px 0;
 }
 
 /* Also, we have a button, kind of. It's an anchor. */
 .footer-links li a {
-    /* Using variables for those colors. */
     color: var(--anchors-text);
-    /* Get out of that decoration. */
     text-decoration: none;
 }
 
 /* .footer-icons is the second container. */
 /* The .footer-icons: */
 .footer-icons {
-    /* Let's add a border here: */
     border-top: 1px solid #fff;
-    /* Some space from the top! */
     padding-top: 35px;
 }
 
 /* Ups... let's use it directly... */
 .footer-icons .footer-social {
-    /* Aligning the items to center. */
     align-items: center;
-    /* We love flex. */
     display: flex;
-    /* Use gaps! */
     gap: 10px;
-    /* The justify-content must be center. */
     justify-content: center;
-    /* list-style was a shorthand, this is actually more specific. */
     list-style-type: none;
 }
 
 /* Now we are going to style the anchor element. */
 .footer-icons .footer-social li a {
-    /* Background set to anchor style: */
     background-color: var(--anchors-text);
-    /* Your border-radius, sire! */
     border-radius: 100%;
-    /* Always use the var() function here: */
     color: var(--bg-color);
-    /* Try to use display block here: */
     display: block;
-    /* Let's put more font-size. */
     font-size: 1.6rem;
-    /* Padding, adding extra space: */
     padding: 10px;
-    /* Add the text-align, please: */
     text-align: center;
-    /* Adding width to make them equally. */
     width: 60px;
 }
 
 /* Now it's time to style the footer-copyright: */
 /* This is the final wave, fight! */
 .footer-copyright {
-    /* Let's use this color for some reason. */
     color: var(--h1-header-color-text);
-    /* Add padding from the top, space from the top! */
     padding-top: 60px;
-    /* We want the text aligned to the center. */
     text-align: center;
 }
 
 /* The first type of the element "p". */
 .footer-copyright p:first-of-type {
-    /* Italic is commonly used, I guess... */
     font-style: italic;
 }
 
 /* Our heart is red here. <3 */
 .heart {
-    /* For now, we do not use variables here: */
     color: red;
 }
