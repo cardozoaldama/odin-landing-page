@@ -30,6 +30,7 @@
 html {
     font-family: Roboto, sans-serif;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 /* First for all, let's change specific layouts inside of the container. */
