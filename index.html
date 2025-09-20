@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- We need more range of characters. -->
     <meta charset="UTF-8">
-    <!-- Always add this meta viewport. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- A cool title for our website. -->
+
     <title>Landing Page from The Odin Project</title>
-    <!-- STYLESHEET and FONTS -->
-    <!-- Our main CSS styles -->
+
     <link rel="stylesheet" href="./css/styles.css">
-    <!-- Using Font Awesome icons... -->
     <!-- Credits to Font Awesome 6... -->
     <script src="https://kit.fontawesome.com/08f7b10637.js" crossorigin="anonymous"></script>
     <!-- Fonts, Google Fonts. -->
-    <!-- Connecting the API I guess... -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!-- Probably you too... -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- And all Roboto fonts inbound! -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -25,33 +19,21 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <!-- The main container. -->
     <div class="container">
-        <!-- The header, the most important thing in a webpage. -->
         <header class="header">
-            <!-- We divide this into two sections. The header in top and the header in bottom. -->
-            <!-- The header-top: -->
+        
             <div class="header-top">
-                <!-- We have a "logo" without any kind of image. -->
                 <p class="header-logo"><span lang="es">Itauguá</span> City</p>
-                <!-- Links to navigate in the page. -->
                 <ul class="header-links">
-                    <!-- We actually don't have any links applied to it. -->
-                    <!-- A home. -->
                     <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-                    <!-- An piece of information. -->
                     <li><a href="#"><i class="fa-solid fa-circle-info"></i> Information</a></li>
-                    <!-- The city. -->
                     <li><a href="#"><i class="fa-solid fa-city"></i> City</a></li>
-                    <!-- About the city. -->
                     <li><a href="#"><i class="fa-solid fa-circle-user"></i> About</a></li>
-                    <!-- The original layout has only three links, but I want to add one more. -->
                 </ul>
             </div>
             <!-- The header-bottom: -->
             <div class="header-bottom">
                 <div>
-                    <!-- The "h1" element is important for SEO and you must have just one "h1" per page. -->
                     <h1 class="header-title"><span lang="es">Itauguá</span> City, is incredible</h1>
                     <!-- A header description. -->
                     <p class="header-description"><span lang="es">Itauguá</span> is known for its rich cultural and artisanal tradition, especially in the crafting of musical instruments and <span lang="es">ñandutí</span>, a traditional Paraguayan lace. It's a delightful blend of craftsmanship and culture!</p>
@@ -64,42 +46,31 @@
             </div>
         </header>
         <!-- The main content of the webpage. -->
-        <!-- For some reason I am not using "main" in the first place. -->
         <main class="content">
-            <!-- "main" divides into three sections. Each one of these have their own kind of topics to talk about it. -->
             <!-- This is the first information (section): -->
             <section class="information">
-                <!-- It has its own information title. -->
                 <h2 class="information-title">Information about the city</h2>
-                <!-- A new special div for flexbox purposes. -->
                 <div class="information-fig">
-                    <!-- A figure that usually I see using with images. -->
                     <figure class="information-img">
                         <!-- The image of the old town market. Beautifully. Credits of their authors. -->
                         <img src="./img/mercado-antes.jpg" alt="The everyday life in the old town market" loading="lazy">
-                        <!-- The figcaption describes what figure (with 'img') wants to show. -->
                         <figcaption>Scene from the documentary 'Paraguay' by Jules Bryent (1945), depicting the everyday life in the old town market, later demolished a few years after.</figcaption>
                     </figure>
-                    <!-- Another figure -->
                     <figure class="information-img">
                         <!-- The image of "ñandutí" woven in the city and streets. Beautifully too! By the way, Credits of their authors. -->
                         <img src="./img/nanduties.webp" alt="Photo of ñandutí woven in the city and streets" loading="lazy">
-                        <!-- Another figcaption describing what 'figure' wants to show us. -->
                         <figcaption><span lang="es">Itauguá</span> will shine this Saturday with the magic of <span lang="es">ñandutí</span>.</figcaption>
                     </figure>
                     <!-- Hey, another figure! -->
                     <figure class="information-img">
                         <!-- This is the San Rafael Museum in the city of Itauguá. Beautifully too, but in photos. Credits of their authors. -->
-                        <!-- By the way, I didn't visit the museum because... just because. -->
                         <img src="./img/museo.JPG" alt="The San Rafael Museum in the city of Itauguá." loading="lazy">
-                        <!-- A figcaption describes what 'figure' wants to show us, again. -->
                         <figcaption>It is considered the first Religious Anthropological and Historical Parish Museum in the interior of the country.</figcaption>
                     </figure>
                     <!-- Probably, by design, this is the last figure with images and figcaption. -->
                     <figure class="information-img">
                         <!-- The Railway Station! Good times was... When the Paraguay was actually an advanced nation... -->
                         <img src="./img/estacion-ferrocarril.jpg" alt="Railway Station" loading="lazy">
-                        <!-- Explaining with a lot stuff here. -->
                         <figcaption>The regular train service to the <span lang="lang">Patiño</span> and <span lang="es">Guazú Vira</span> stations (now <span lang="es">Ypacaraí</span>) was inaugurated on March 27, 1862, thus establishing a milestone in the modernization of public transportation.</figcaption>
                     </figure>
                 </div>
@@ -107,23 +78,14 @@
             </section>
             <!-- The second section... -->
             <section class="information">
-                <!-- A basic information about the city and history, just a little bit. -->
-                <!-- First paragraph. -->
                 <p class="information-text">Itauguá is a city located in the Central Department, one of Paraguay's administrative regions. It is situated approximately 27 kilometers east of Asunción, the capital of the country. Itauguá is renowned for its rich cultural and artisanal tradition, particularly in the crafting of musical instruments and <span lang="es">ñandutí</span>, a traditional Paraguayan lace.</p>
-                <!-- Second paragraph. -->
                 <p class="information-text">The city holds historical and cultural significance and has been the backdrop for significant events in Paraguay's history. In addition to its cultural heritage, Itauguá boasts natural attractions in its surroundings, making it an interesting destination for visitors.</p>
-                <!-- The second section ends here. -->
             </section>
             <!-- The last section, by design. -->
             <section class="information">
-                <!-- We have here an information-div. We need it because I love boxes and boxes inside of boxes is awesome. -->
                 <div class="information-div">
-                    <!-- We have two elements inside of this box. -->
-                    <!-- The new and special div. -->
                     <div>
-                        <!-- The title of this box. -->
                         <h2 class="information-div__title">You want to know more?</h2>
-                        <!-- A little of information of this box. -->
                         <p class="information-div__text">Visit the Wikipedia website for more information.</p>
                     </div>
                     <!-- A button with Wikipedia... Credits, credits! -->
@@ -132,25 +94,18 @@
                 </div>
                 <!-- The last section ends here. -->
             </section>
-            <!-- Our main content ends here. By design, of course. -->
         </main>
         <!-- FOOTER -->
         <!-- The footer is a piece of information which resumes your webpage, and so many stuff you could actually put inside of it. -->
         <footer class="footer">
-            <!-- The footer has been divide into three parts. -->
-            <!-- Starts with, one thing, I don't know why... I mean! With the footer-information. -->
             <div class="footer-information">
-                <!-- We got a footer-logo without an image. -->
                 <p class="footer-logo"><span lang="es">Itauguá</span> City</p>
-                <!-- Also, I have some links here. -->
                 <ul class="footer-links">
-                    <!-- Every link is kinda same as the header links. -->
                     <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
                     <li><a href="#"><i class="fa-solid fa-circle-info"></i> Information</a></li>
                     <li><a href="#"><i class="fa-solid fa-city"></i> City</a></li>
                     <li><a href="#"><i class="fa-solid fa-circle-user"></i> About</a></li>
                 </ul>
-                <!-- Our footer-information is over. -->
             </div>
             <!-- The footer-icons... -->
             <div class="footer-icons">
@@ -170,17 +125,12 @@
                 <!-- Our footer-icons is over again! -->
             </div>
             <!-- Finally, we have the footer-copyright. -->
-            <!-- But those icons and photos aren't mine, so, credits... -->
             <div class="footer-copyright">
-                <!-- We have the copyright text. -->
                 <p class="footer-copyright__text">&copy;Copyright. All rights reserved</p>
                 <!-- And the special one, THANKS THE ODIN PROJECT FOR SUCH A WORK AND THANKS, THANKS FOR EVERYTHING! -->
                 <p class="footer-copyright__text footer-copyright__text--love">Made in &#x1f1f5;&#x1f1fe; with <span class="heart">&hearts;</span> and thanks The Odin Project.</p>
-                <!-- footer-copyright ends. -->
             </div>
-            <!-- Over, it's over "footer". -->
         </footer>
-        <!-- Our container rest here. -->
     </div>
 </body>
 </html>
