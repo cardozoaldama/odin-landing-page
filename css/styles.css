@@ -151,9 +151,7 @@ html {
 
 /* Now we are going to change those figure and figcaption. */
 .information-fig {
-    align-items: stretch;
     display: flex;
-    justify-content: space-evenly;
 }
 
 /* Figures as a .information-img class. */
